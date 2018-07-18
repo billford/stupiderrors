@@ -17,4 +17,4 @@ def get_path(path, statcode):
     if statcode != 200:
         return abort(statcode)
     else:
-        return "Hey this isn't cool, either that's not a valid exception or you sent a 200, stop that!"
+        return "Hey not cool, either that's not a valid exception or you sent a 200,stop that!"
