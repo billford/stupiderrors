@@ -4,7 +4,7 @@ A site that lets you test your code for various http status codes (errors, probl
 
 So you're writing some code that calls a bunch of APIs but you need to be able to test
 for when those APIs fail. Enter stupiderrors.net. You can use it to write tests against stuff you
-KNOW will fail. Variabalize the hostname and you should be all set. 
+KNOW will fail. Make the hostname a variable and you should be all set.
 
 Usage: 
 
