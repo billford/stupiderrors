@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/billford/stupiderrors.svg?branch=master)](https://travis-ci.org/billford/stupiderrors)
+
 # stupiderrors -- BETA 
 A site that lets you test your code for various http status codes (errors, problems, etc) 
 
