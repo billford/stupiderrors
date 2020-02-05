@@ -9,6 +9,11 @@ app = Flask(__name__)
 def readme():
     return redirect("https://github.com/billford/stupiderrors", code=302)
 
+@app.route('/rando')
+def rando():
+    codes = "codes"
+    statCode = random.choice(list(open(codes).readlines()))
+    return abort(int(statCode))
 
 # noinspection PyUnusedLocal,PyUnusedLocal
 @app.route('/', defaults={'path': '', 'statcode': None})
