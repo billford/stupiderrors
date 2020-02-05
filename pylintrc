@@ -21,7 +21,8 @@ disable=locally-disabled,
         missing-docstring,
         unused-argument,
         invalid-name,
-        no-else-return
+        no-else-return,
+        undefined-variable
 
 [FORMAT]
 
