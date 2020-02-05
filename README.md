@@ -13,6 +13,8 @@ Usage:
 https://stupiderrors.net/any/path/you/want/error_code so an example
 https://stupiderrors.net/api/v2/stuff/404 will return a proper 404 to you. 
 
+https://stupiderrors.net/rando will redirect you to a random (well picked from the 'codes' files of http status codes) and redirect you with the random code. 
+
 https://stupiderrors.net/readme will get you here
 
 I know sites like this exist, blah blah blah, it just seemed like an interesting little diversion to build one myself. 
